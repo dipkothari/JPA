@@ -21,7 +21,7 @@ public class CustomerDAO {
 		
 		
 		Customer customer =new Customer();
-		customer.setCustomerId(12345);
+		customer.setCustomerId(125);
 		customer.setCustomerName("XYZZ");
 		EntityManagerFactory entityManagerFactory= Persistence.createEntityManagerFactory("test");
 		EntityManager em=entityManagerFactory.createEntityManager();
